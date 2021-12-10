@@ -13,7 +13,7 @@ import:
 import Transit from '@ungeui/transit'
 ```
 
-## Example
+## HTML Example
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/@ungeui/transit@1.0.0/dist/transit.umd.min.js"></script>
@@ -33,9 +33,39 @@ import Transit from '@ungeui/transit'
     }, 2000) 
 </script>
 ```
-
-## Display
-
 [try it in codepen:](https://codepen.io/peterroe/pen/ZEXpWrY?editors=1111)
 
 ![img](https://img-blog.csdnimg.cn/52395997fe4b46d0897815c3eed6da0c.gif)
+
+## Vue Support
+
+You can use it in VueJs. 
+
+Because variables are reactive.
+
+```html
+<template>
+    <div>
+        {{obj.value}}
+    </div>
+</template>
+
+<script setup>
+import Transit from '@ungeui/transit'
+import { reactive }  from 'vue'
+let obj = reactive({
+    number: 23
+})
+
+setInterval(() => {
+    Transit(obj, {
+        duration: 500,
+        key: 'number',
+        value: obj.value + 100
+    })
+},1000)
+</script>
+```
+
+![img](https://img-blog.csdnimg.cn/122f98db86594a47a6e88d3f1e6c808d.gif)
+
