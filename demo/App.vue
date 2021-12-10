@@ -14,7 +14,8 @@ let obj = reactive({
 setInterval(() => {
     Transit(obj, {
         name: 'value',
+        duration: 500,
         value: obj.value + 100
     })
-},2000)
+},1000)
 </script>
