@@ -1,6 +1,6 @@
 ## Target
 
-Let the numbers transition when they change
+Let the numbers transition when it change
 
 ## Usage
 
@@ -35,5 +35,7 @@ import Transit from '@ungeui/transit'
 ```
 
 ## Display
+
+[try it in codepen:](https://codepen.io/peterroe/pen/ZEXpWrY?editors=1111)
+
 ![img](https://img-blog.csdnimg.cn/52395997fe4b46d0897815c3eed6da0c.gif)
-[try it in codepen](https://codepen.io/peterroe/pen/ZEXpWrY?editors=1111)
