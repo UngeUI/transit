@@ -1,0 +1,1 @@
+function e(e,{duration:n,name:t,value:a}){const o=document.querySelector(e),r=Number(o.innerText),u=a,i=u-r,m=i/1e3;let l;requestAnimationFrame((function e(n){null==l&&(l=n);const t=n-l,a=Math.floor(r+t*m);o.innerText=i>0?Math.min(a,u):Math.max(a,u);t<1e3&&requestAnimationFrame(e)}))}export{e as default};
