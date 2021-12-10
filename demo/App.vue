@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-import Transit from '../lib/index'
+import Transit from '@ungeui/transit'
 import { reactive }  from 'vue'
 let obj = reactive({
     value: 23

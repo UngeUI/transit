@@ -33,6 +33,11 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.12.tgz#ac7fb693ac587ee182c3780c26eb65546a1a3c10"
   integrity sha512-+2Iggwg7PxoO5Kyhvsq9VarmPbIelXP070HMImEpbtGCoyWNINQj4wzjbQCXzdHTRXnqufutJb5KAURZANNBAw==
 
+"@ungeui/transit@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@ungeui/transit/-/transit-1.1.0.tgz#78a0bc7af2f70a7dd094d1622957e1d655d93b0e"
+  integrity sha512-kvhVKKkEiDpg3Pc4Eb4FuTiuldAtQeSF58jKiWgYCv/DWXadNQOHdJLTjNP/gHghSgKkb3IwZp9E4Ljqcy5law==
+
 "@vitejs/plugin-vue@^1.10.2":
   version "1.10.2"
   resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-1.10.2.tgz#d718479e2789d8a94b63e00f23f1898ba239253a"
