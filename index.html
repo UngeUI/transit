@@ -9,10 +9,21 @@
 </head>
 
 <body>
-    <div id="app">
-        34
-    </div>
-    <script type="module" src="/main.js"></script>
+    <span id="app">
+        0
+    </span>
+    <script src="https://cdn.jsdelivr.net/npm/@ungeui/transit@1.0.0/dist/transit.umd.min.js"></script>
+
+    <script>
+        const app = document.querySelector('#app')
+        setInterval(() => {
+            let value = Math.floor(Math.random() * 1000)
+            transit('#app', {
+                duration: 500,
+                value: value
+            })
+        }, 2000)
+    </script>
 </body>
 
 </html>
