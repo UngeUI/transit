@@ -2,6 +2,12 @@
 
 Let the numbers transition when it change
 
+Usage like `gsap.to()`, but Its size is tiny:
+
+<a href="http://img.badgesize.io/https://unpkg.com/@ungeui/transit/dist/transit.esm.js?compression=gzip&label=gzip%20size:%20JS">
+    <img src="http://img.badgesize.io/https://unpkg.com/@ungeui/transit/dist/transit.esm.js?compression=gzip&label=gzip%20size:%20JS">
+</a>
+
 ## Usage
 
 ```shell
@@ -16,7 +22,7 @@ import Transit from '@ungeui/transit'
 ## HTML Example
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@ungeui/transit@1.0.0/dist/transit.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@ungeui/transit@1.1.1/dist/transit.umd.min.js"></script>
 
 <span id="app">
     0
