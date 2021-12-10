@@ -24,10 +24,16 @@ import Transit from '@ungeui/transit'
 
 <script>
     setInterval(() => {
+        const ranDomValue = Math.floor(Math.random() * 1000)
         transit('#app', {
             duration: 1000,
-            value: Math.floor(Math.random() * 10000)
+            value: ranDomValue
         })
-    }, 2000)
+        console.log(ranDomValue)
+    }, 2000) 
 </script>
 ```
+
+## Display
+![img](https://img-blog.csdnimg.cn/52395997fe4b46d0897815c3eed6da0c.gif)
+[try it in codepen](https://codepen.io/peterroe/pen/ZEXpWrY?editors=1111)
