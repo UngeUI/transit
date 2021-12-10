@@ -3,21 +3,20 @@
     "version": "1.1.1",
     "license": "MIT",
     "main": "./dist/transit.umd.js",
-    "module": "./dist/transit.esm.js",
+    "module": "./dist/transit.es.js",
     "exports": {
         ".": {
-            "import": "./dist/transit.esm.js",
+            "import": "./dist/transit.es.js",
             "require": "./dist/transit.umd.js"
         }
     },
     "scripts": {
         "dev": "vite dev",
-        "rollup": "rollup --config rollup.config.js"
+        "build": "vite build"
     },
     "devDependencies": {
         "@ungeui/transit": "^1.1.0",
         "@vitejs/plugin-vue": "^1.10.2",
-        "rollup": "^2.61.0",
         "rollup-plugin-terser": "^7.0.2",
         "vite": "^2.7.1",
         "vue": "^3.2.24"
