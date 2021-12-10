@@ -1,15 +1,15 @@
 import transit from './lib/index'
 
 let o = {
-    number: 23,
     newValue: 0
 }
 const app = document.querySelector('#app')
 setInterval(() => {
-    transit(o, {
-        duration: 0.5,
-        name: 'newValue',
-        value: Math.floor(Math.random() * 100)
+    let value = Math.floor(Math.random() * 1000)
+    transit('#app', {
+        duration: 500,
+        // name: 'newValue',
+        value
     })
-    app.innerText = o.newValue
-}, 1000)
+    console.log(value)
+}, 3000)
