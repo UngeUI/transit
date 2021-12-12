@@ -22,7 +22,7 @@ import Transit from '@ungeui/transit'
 ## HTML Example
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@ungeui/transit@1.1.1/dist/transit.umd.min.js"></script>
+<script src="https://unpkg.com/@ungeui/transit"></script>
 
 <span id="app">
     0
@@ -39,7 +39,7 @@ import Transit from '@ungeui/transit'
     }, 2000) 
 </script>
 ```
-[try it in codepen:](https://codepen.io/peterroe/pen/ZEXpWrY?editors=1111)
+[try it in codepen:](https://codepen.io/peterroe/pen/eYGBgjv?editors=1111)
 
 ![img](https://img-blog.csdnimg.cn/52395997fe4b46d0897815c3eed6da0c.gif)
 
